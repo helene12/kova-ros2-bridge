@@ -1,0 +1,73 @@
+# Kova ROS2 Bridge Configuration
+
+kova_bridge:
+  # Node configuration
+  node_name: "kova_bridge"
+  namespace: "/kova"
+  
+  # Robot identification
+  robot_id: "robot_001"
+  
+  # Validation settings
+  validation:
+    min_quality_score: 0.7
+    enable_anomaly_detection: true
+    enable_temporal_consistency: true
+  
+  # Blockchain settings
+  blockchain:
+    solana_rpc_url: "https://api.mainnet-beta.solana.com"
+    ipfs_api_url: "http://localhost:5001"
+    retry_attempts: 3
+    timeout_seconds: 30
+  
+  # Sensor configuration
+  sensors:
+    camera:
+      enabled: true
+      topic: "/camera/image_raw"
+      quality_threshold: 0.8
+      processing:
+        resize: [640, 480]
+        enhance: true
+        denoise: true
+    
+    lidar:
+      enabled: true
+      topic: "/lidar/points"
+      quality_threshold: 0.7
+      processing:
+        filter_outliers: true
+        downsample: 0.01
+    
+    imu:
+      enabled: true
+      topic: "/imu/data"
+      quality_threshold: 0.6
+      processing:
+        calibrate: true
+        filter_noise: true
+    
+    gps:
+      enabled: true
+      topic: "/gps/fix"
+      quality_threshold: 0.5
+      processing:
+        validate_coordinates: true
+  
+  # Reward settings
+  rewards:
+    auto_claim: true
+    claim_interval: 60.0  # seconds
+    min_reward_threshold: 0.001  # SOL
+    base_rewards:
+      camera: 0.001
+      lidar: 0.002
+      imu: 0.0005
+      gps: 0.0003
+  
+  # Logging settings
+  logging:
+    level: "info"
+    enable_metrics: true
+    metrics_interval: 1.0  # seconds
